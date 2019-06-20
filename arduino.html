@@ -1,0 +1,167 @@
+<doctype html>
+<html lang="nl">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/stylesheet.css" type="text/css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">       
+        <title>Home</title>
+
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+                <a href="index.html">Home</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Topics
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="wearables.html">Wearables</a>
+                        <a href="playful.html">Playful Interactions</a>
+                        <a href="creatures.html">Artificial Creatures</a>
+                        <a href="vrar.html">AR & VR</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Workshops
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Arduino</a>
+                        <a href="#">VR Environments</a>
+                        <a href="#">Computer Vision</a>            
+                    </div>
+                </div>
+                <a href="index.html">Excursion</a>
+                <a href="index.html">Lab weeks</a>
+            </nav>
+        </header>
+        <main>
+            <div class="main_header">
+                <h1>Arduino</h1>
+            </div>           
+            <div class="all-content wearable-content">
+                <h2 class="pseudo_border">Doel</h2>
+                <p>
+                    Voor deze opdracht was het de bedoeling om de Arduino manual opdrachten uit te voeren.
+                </p>
+                <h2 class="pseudo_border">Opdracht 3c</h2>
+                <p>
+                    Bij deze opdracht was het de bedoeling om de groene led twee keer zo snel te laten blinken als de gele led. Dit is gedaan door de groene led een kortere delay mee te geven nadat die is aangegaan. Op deze wijze blijft de groene led korter aan dan de gele led en blinkt die dus sneller.
+                </p>
+                <div class="all-images arduino-images">
+                    <img src="images/3c.JPG" title="#" alt="#">                   
+                </div>  
+                <div class="all-images arduino-images">
+                    <video width="100%" controls muted>
+                        <source src="images/3c.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>                 
+                </div>   
+                
+                <h2 class="pseudo_border">Opdracht 4c</h2>
+                <p>
+                    Voor deze opdracht was het doel om de ene led langzaam feller te laten worden terwijl de andere led langzaam minder fel werd. Dit is gedaan door de ene led op de hoogste felheidswaarde te laten starten en de andere led op de laagste felheidswaarde. Vervolgens gaat erbij de ene led telkens 1 waarde aan felheid vanaf en bij de andere 1 waarde aan felheid erbij. En dit weer andersom wanneer de led's hun max en min felheidswaarde hebben bereikt.
+                </p>
+                <div class="all-images arduino-images">
+                    <img src="images/4c.JPG" title="#" alt="#">                   
+                </div>  
+                <div class="all-images arduino-images">
+                    <video width="100%" controls muted>
+                        <source src="images/4c.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>                 
+                </div> 
+                
+                <h2 class="pseudo_border">Opdracht 6c</h2>
+                <p>
+                    Bij deze opdracht is ervoor gezorgd dat de ene led langzaam aangaat en de andere led langzaam uit wanneer aan de potmeter wordt gedraaid. Dit is gedaan door de waarde van de potmeter uit te lezen en deze vervolgens mee te geven aan de led's. Waarbij bij de ene led de waarde van de led al op z'n hoogst is ingesteld en vervolgens de waarde van de potmeter eraf wordt gehaald om de felheid te verminderen. De waarde van de andere led staat al op 0 en wordt vervolgens verhoogt door de waarde van de potmeter om de felheid te verhogen.
+                </p>
+                <div class="all-images arduino-images">
+                    <img src="images/6c.JPG" title="#" alt="#">                   
+                </div>  
+                <div class="all-images arduino-images">
+                    <video width="100%" controls muted>
+                        <source src="images/6c.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>                 
+                </div>   
+
+                <h2 class="pseudo_border">Opdracht 7</h2>
+                <p>
+                    Voor deze opdracht was het de bedoeling om beide led's uit te laten gaan wanneer de lichtsensor wordt geblokkeerd. Dit is gedaan door de led's de waarde van de lichtsensor mee te geven. Om de sensor accurater te maken zijn de min en max waardes herschaald. Wanneer de lichtsensor geen licht waarneemt krijgt de sensor een waarde van 0 en geeft dit mee aan de led's die dan ook uitgaan. Wanneer de lichtsensor maximaal licht ontvangt wordt de waarde de maximaal waarde en gaan de led's volledig aan.
+                </p>
+                <div class="all-images arduino-images">
+                    <img src="images/7.JPG" title="#" alt="#">                   
+                </div>  
+                <div class="all-images arduino-images">
+                    <video width="100%" controls muted>
+                        <source src="images/7.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>                 
+                </div> 
+
+                <h2 class="pseudo_border">Opdracht 8</h2>
+                <p>
+                    Voor deze opdracht was het nodig om te laten zien hoe de led's werken wanneer er twee lichtsensoren zijn aangesloten. Van te voren moest eerst worden opgesteld hoe de led's zouden werken. Dit heb ik gedaan aan de hand van een formule, de resultaten van deze formule zijn in de onderstaande afbeelding te zien. Wanner de R1 sensor donker wordt gehouden en de R2 sensor licht dan is er bijna geen output. Dit komt door de lage waarde van de donkere sensor die de waarde van de lichte sensor omlaag haalt. Wanneer R1 licht is en R2 donker is de output op z'n hoogst. De waarde van R2 is namelijk van minder grote invloed op de uiteindelijke waarde. Wanneer beide sensoren licht of donker zijn is de output gemiddeld. Dit komt, omdat beide sensoren elkaar dan deels beinvloeden. In de onderstaande video's is deze theorie in de praktijk toegepast en is te zien dat bij een R1 donker en een R2 licht de output het laagste is. Bij de R1 licht en de R2 donker is de waarde op z'n hoogst. Bij beide licht of donker is de waarde gemiddeld.
+                </p>
+                <div class="all-images arduino-images">
+                    <img src="images/8.JPG" title="#" alt="#">                   
+                </div>  
+                <div class="all-images arduino-images">
+                    <video width="100%" controls muted>
+                        <source src="images/8a.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>                 
+                </div> 
+                <div class="all-images arduino-images">
+                    <video width="100%" controls muted>
+                        <source src="images/8b.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>                 
+                </div> 
+
+                <h2 class="pseudo_border">Opdracht 9b</h2>
+                <p>
+                    Bij deze opdracht heb ik de processing code die gebruikt moest worden aangepast om ervoor te zorgen dat er een vierkantje wordt getoond in plaats van een rondje. De code zorgt er verder voor dat de grootte van het vierkant veranderd afhankelijk van de hoeveelheid licht die de lichtsensoren ontvangen.
+                </p>
+                <div class="all-images arduino-images">
+                    <img src="images/9a.JPG" title="#" alt="#" >                   
+                </div>  
+                <div class="all-images arduino-images">
+                    <img src="images/9b.JPG" title="#" alt="#" >                   
+                </div> 
+                <div class="all-images arduino-images">
+                    <video width="100%" controls muted>
+                        <source src="images/9.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>                 
+                </div> 
+
+                <h2 class="pseudo_border">Opdracht 10f</h2>
+                <p>
+                    Bij deze opdracht gaat de led aan wanneer op een knop wordt gedrukt. Wanneer op beide knoppen wordt gedrukt gaat de led niet aan. Dit is gedaan aan de hand van een if else statement. Door aan te geven dat de led uit moet zijn wanneer beide knoppen zijn ingedrukt en aan moet gaan wanneer één van de twee knoppen wordt ingedrukt.                </p>
+                <div class="all-images arduino-images">
+                    <img src="images/10f.JPG" title="#" alt="#" >                   
+                </div>  
+                <div class="all-images arduino-images">
+                    <video width="100%" controls muted>
+                        <source src="images/10f.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>                 
+                </div> 
+
+
+
+            </div>
+
+        </main>
+        <footer>
+
+        </footer>
+    <script type="text/javascript" src="js/all.js"></script>        
+    </body>
+</html>
+

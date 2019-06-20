@@ -130,6 +130,17 @@ p {
   height: auto;
 }
 
+.home-images {
+  width: 50%; 
+}
+
+.home-images img {
+  border-radius: 50%;
+  border: 4px #F10218 solid;
+  padding: 32px;
+  box-sizing: border-box;
+}
+
 .img-btn-left{  
   left: 0; 
   transform: translateY(-50%); 
@@ -158,3 +169,7 @@ p {
 }
 
 .mySlides {display:none;}
+
+.arduino-images {
+  width: 75%;
+}
