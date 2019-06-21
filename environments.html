@@ -1,0 +1,122 @@
+<doctype html>
+<html lang="nl">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/stylesheet.css" type="text/css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">       
+        <title>VR Environments</title>
+
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+                <a href="index.html">Home</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Topics
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="wearables.html">Wearables</a>
+                        <a href="playful.html">Playful Interactions</a>
+                        <a href="creatures.html">Artificial Creatures</a>
+                        <a href="vrar.html">AR & VR</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Workshops
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="arduino.html">Arduino</a>
+                        <a href="environments.html">VR Environments</a>
+                        <a href="computer.html">Computer Vision</a>             
+                    </div>
+                </div>
+                <a href="excursion.html">Excursion</a>
+                <a href="lab.html">Lab weeks</a>
+            </nav>
+        </header>
+        <main>
+            <div class="main_header">
+                <h1>VR Environments</h1>
+            </div>           
+            <div class="all-content wearable-content">
+                <h2 class="pseudo_border">Doel</h2>
+                <p>
+                    Het doel was enerzijds een spel in Unreal Engine te maken aan de hand van een tutorial en anderzijds gebruik te maken van MadMapper om te komen tot een Spatial Augmented Reality object. 
+                </p>
+
+                <h2 class="pseudo_border">Spatial Augmented Reality</h2>
+                <p>
+                    Spacial Augmented Reality maakt gebruik van projectors. Maar in plaats van gebruik te maken van een vlakke achtergrond kan wordt er gebruik gemaakt van een 3D object. Deze objecten kunnen vervolgens gemakt worden tot interactieve displays.
+                </p>
+                <div class="all-images wearable-images">
+                    <img src="images/spatial_car.JPG" title="#" alt="#">                   
+                </div>   
+                <p>
+                    Voor deze opdracht heb ik samen met een klasgenoot een mannequin en het programma MadMapper gebruikt om een projectie op de mannequin te tonen. In het programma MadMapper hebben we een afbeelding van een vrouw en een jurk geïmporteerd. Deze afbeeldingen hebben wij vervolgens zodanig bewerkt dat de afbeeldingen wanneer geprojecteerd mooi over de mannequin heen vallen. Onderstaand is te zien hoe de jurk is vervormd om op de mannequin te passen, zoals in de afbeelding daarna te zien is.
+                </p>
+                <div class="all-images wearable-images">
+                    <img src="images/dress2.jpeg" title="#" alt="#">                   
+                </div>  
+                <div class="all-images wearable-images">
+                    <img src="images/spatial_dress.jpeg" title="#" alt="#">                   
+                </div>  
+                <p>
+                    Nadat de jurk passend was is de vrouw bewerkt om zowel overeen te komen met de vormen van de jurk en daarmee op de mannequin te passen. Dit is onderstaand te zien.
+                </p>
+                <div class="all-images wearable-images">
+                    <img src="images/spatial_woman.jpeg" title="#" alt="#">                   
+                </div>  
+                <p>
+                    Het doel was om de vrouw eerst met de jurk er overheen te tonen en wanneer in de microfoon van de laptop werd geblazen de jurk te laten verdwijnen. Dit is na lang zoeken helaas niet gelukt. Het lukte wel deels, maar dit was niet consistent waardoor dit geen oplossing was. Uiteindelijk is ervoor gekozen om het laten verdwijnen van de jurk aan een keyboardtoets te koppelen. Wanneer de toets werd ingedrukt verdween de jurk. Uiteindelijk ben ik tevreden over het resultaat. Het is interessant om te werken met 3D projectie en daarnaast interactiviteit toe te voegen. Het eindresultaat is onderstaand te zien.   
+                </p>
+                <div class="all-images arduino-images">
+                    <video width="100%" controls muted>
+                        <source src="images/dress.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>                 
+                </div> 
+                
+                <h2 class="pseudo_border">Unreal Engine</h2>
+                <p>
+                    Unreal Engine is een programma om games mee te maken. In dit geval heb ik het gebruikt om aan de hand van een tutorial een game te maken waarbij een spelers in de vorm van een kubus bananen moet oprapen.
+                </p>
+                </br>                              
+                <p>
+                    Er is als eerste begonnen met het aanmaken van een project in Unreal Engine (UE). Vervolgens heb ik de interface van UE geleerd om mijn workflow te bevorderen. Daarna heb ik assets geïmporteerd om de banaan te maken. Dit betrof de asset van een banaan 3D object en de texture voor de banaan. Ik heb een materiaal aangemaakt voor het 3D object waar de texture van de banaan overheen geplaats kan worden. Hierbij is gebruik gemaakt van nodes. Ik heb vervolgens een blueprint aangemaakt om het mogelijk te maken de banaan op een verhoging te laten draaien. Dit is alleen om te oefenen en zal niet in het uiteindelijk spel aanwezig zijn. In de blueprint heb ik de verhoging met de banaan erop geplaatst. Hierbij heb ik een AddLocalRotation aangemaakt om ervoor te zorgen dat de banaan gaat ronddraaien. Dit is in onderstaande video te zien. In de afbeelding is een deel van de code te zien.
+                </p>
+                <div class="all-images arduino-images">
+                    <video width="100%" controls muted>
+                        <source src="images/banaan.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>                 
+                </div> 
+                <div class="all-images wearable-images">
+                    <img src="images/banaan.PNG" title="#" alt="#">                   
+                </div>  
+                <p>
+                    Hierna ben ik begonnen aan de tutorial om tot het spel met een speler en de bananen te komen. Hiervoor ben ik begonnen met een start project van de tutorial die ik vervolgens in UE heb geopend. Vervolgens heb ik een speler aangemaakt en daaraan een camera gekoppeld die het beeld bepaald van de gebruiker ziet. Als speler heb ik een 3D kubus model gebruikt. Vervolgens heb ik de speler input gegeven, zodat de speler kan lopen. Daarna heb ik ervoor gezorgd dat bij een aanraking van de speler met de banaan, de banaan verdwijnt. Vervolgens heb ik een game mode aangemaakt, de game mode is nodig om ervoor te zorgen dat een speler het spel in komt. De game mode zorgt ervoor welke 3D model de speler gebruikt, in dit geval wordt dat de 3D kubus. Als laatste heb ik de bananen en de speler in het level geplaatst en nu kan de speler de bananen opeten. Onderstaand is het spel te zien en daaronder is een afbeelding van de movement van de speler te zien.
+                </p>
+                <div class="all-images arduino-images">
+                    <video width="100%" controls muted>
+                        <source src="images/banaan_spel.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>                 
+                </div> 
+                <div class="all-images wearable-images">
+                    <img src="images/speler.PNG" title="#" alt="#">                   
+                </div>  
+
+            </div>      
+
+        </main>
+        <footer>
+
+        </footer>
+    <script type="text/javascript" src="js/all.js"></script>        
+    </body>
+</html>
+
