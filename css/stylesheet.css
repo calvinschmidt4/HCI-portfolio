@@ -97,6 +97,10 @@ h2 {
   padding: 0;  
 }
 
+h3 {
+  margin-bottom: 0px;
+}
+
 .pseudo_border {
   position: relative;
   display: inline-block;
